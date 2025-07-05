@@ -9,7 +9,6 @@
 package Day3;
 
 import java.util.HashMap;
-import java.util.*;
 import java.util.Map;
 
 public class SubarraySumEqualsK {
