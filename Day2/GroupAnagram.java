@@ -17,10 +17,7 @@ public class GroupAnagram {
             if(!output.containsKey(String.valueOf(ch))){
                 output.put(String.valueOf(ch), new ArrayList<>());
             }
-                output.get(String.valueOf(ch)).add(str);
-
-            
-            
+                output.get(String.valueOf(ch)).add(str);     
         }
         for(Map.Entry<String, List<String>> mp : output.entrySet()){
             System.out.println(mp.getKey() +" "+mp.getValue());
